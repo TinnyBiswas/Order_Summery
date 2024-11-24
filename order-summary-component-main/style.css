@@ -101,12 +101,14 @@ body{
 
 .Change{
     font-family: var(--font);
-    font-weight: bold;
     outline: none;
     border: 0;
     font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
+    text-decoration: underline;
     background:var(--pale-blue);
+    color: var(--bright-blue);
 
 }
 .Change:hover{
